@@ -26,34 +26,14 @@ int main(int argc, char *argv[]){
         }
     }
 
+    for(i = 0; i < 4; i++){
+        for(c = 0; c < 4; c++){ 
 
-    printf("insira o valor que gostaria de colocar na area da matriz");
-    scanf("%d", &matriz[0][0]);
-    printf("insira o valor que gostaria de colocar na area da matriz");
-    scanf("%d", &matriz[0][1]);
-    printf("insira o valor que gostaria de colocar na area da matriz");
-    scanf("%d", &matriz[0][2]);
-    printf("insira o valor que gostaria de colocar na area da matriz");
-    scanf("%d", &matriz[1][0]);
-    printf("insira o valor que gostaria de colocar na area da matriz");
-    scanf("%d", &matriz[1][1]);
-    printf("insira o valor que gostaria de colocar na area da matriz");
-    scanf("%d", &matriz[1][2]);
-    printf("insira o valor que gostaria de colocar na area da matriz");
-    scanf("%d", &matriz[2][0]);
-    printf("insira o valor que gostaria de colocar na area da matriz");
-    scanf("%d", &matriz[2][1]);
-    printf("insira o valor que gostaria de colocar na area da matriz");
-    scanf("%d", &matriz[2][2]);
-
-
- 
-
-    printf("%d -%d - %d" \n",matriz[0][0],matriz[0][1],matriz[0][2]);
-    printf("%d -%d - %d" \n",matriz[1][0],matriz[1][1],matriz[1][2]);
-    printf("%d -%d - %d" \n",matriz[2][0],matriz[2][1],matriz[2][2]);
-
-
+            if (matriz[i][c] >= 15 && matriz[i][c] < = 35){
+                count++; 
+            }
+        }
+    }
 
 
     return 0; 
